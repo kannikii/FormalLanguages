@@ -1,0 +1,83 @@
+Begin scanning... programs/pal.mc
+
+void
+Identifier	main
+(
+)
+{
+int
+Identifier	org
+,
+Identifier	rev
+;
+int
+Identifier	i
+,
+Identifier	j
+;
+Identifier	read
+(
+Identifier	org
+)
+;
+if
+(
+Identifier	org
+<
+IntLiteral	0
+)
+Identifier	org
+=
+(
+-
+IntLiteral	1
+)
+*
+Identifier	org
+;
+Identifier	i
+=
+Identifier	org
+;
+Identifier	rev
+=
+IntLiteral	0
+;
+while
+(
+Identifier	i
+!=
+IntLiteral	0
+)
+{
+Identifier	j
+=
+Identifier	i
+%
+IntLiteral	10
+;
+Identifier	rev
+=
+Identifier	rev
+*
+IntLiteral	10
++
+Identifier	j
+;
+Identifier	i
+/=
+IntLiteral	10
+;
+}
+if
+(
+Identifier	rev
+==
+Identifier	org
+)
+Identifier	write
+(
+Identifier	org
+)
+;
+}

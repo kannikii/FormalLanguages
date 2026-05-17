@@ -1,0 +1,160 @@
+Begin scanning... programs/input/bubble.mc
+
+void
+Identifier	main
+(
+)
+{
+int
+Identifier	list
+[
+IntLiteral	100
+]
+;
+int
+Identifier	element
+;
+int
+Identifier	total
+,
+Identifier	i
+,
+Identifier	top
+;
+int
+Identifier	temp
+;
+Identifier	i
+=
+IntLiteral	1
+;
+Identifier	read
+(
+Identifier	element
+)
+;
+while
+(
+Identifier	element
+!=
+IntLiteral	0
+)
+{
+Identifier	list
+[
+Identifier	i
+]
+=
+Identifier	element
+;
+++
+Identifier	i
+;
+Identifier	read
+(
+Identifier	element
+)
+;
+}
+Identifier	top
+=
+Identifier	total
+=
+Identifier	i
+-
+IntLiteral	1
+;
+while
+(
+Identifier	top
+>
+IntLiteral	1
+)
+{
+Identifier	i
+=
+IntLiteral	1
+;
+while
+(
+Identifier	i
+<
+Identifier	top
+)
+{
+if
+(
+Identifier	list
+[
+Identifier	i
+]
+>
+Identifier	list
+[
+Identifier	i
++
+IntLiteral	1
+]
+)
+{
+Identifier	temp
+=
+Identifier	list
+[
+Identifier	i
+]
+;
+Identifier	list
+[
+Identifier	i
+]
+=
+Identifier	list
+[
+Identifier	i
++
+IntLiteral	1
+]
+;
+Identifier	list
+[
+Identifier	i
++
+IntLiteral	1
+]
+=
+Identifier	temp
+;
+}
+++
+Identifier	i
+;
+}
+Identifier	top
+--
+;
+}
+Identifier	i
+=
+IntLiteral	1
+;
+while
+(
+Identifier	i
+<=
+Identifier	total
+)
+{
+Identifier	write
+(
+Identifier	list
+[
+Identifier	i
+]
+)
+;
+++
+Identifier	i
+;
+}
+}

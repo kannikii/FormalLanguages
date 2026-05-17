@@ -1,0 +1,93 @@
+Begin scanning... programs/perfect.mc
+
+const
+int
+Identifier	max
+=
+IntLiteral	500
+;
+void
+Identifier	main
+(
+)
+{
+int
+Identifier	i
+,
+Identifier	j
+,
+Identifier	k
+;
+int
+Identifier	rem
+,
+Identifier	sum
+;
+Identifier	i
+=
+IntLiteral	2
+;
+while
+(
+Identifier	i
+<=
+Identifier	max
+)
+{
+Identifier	sum
+=
+IntLiteral	0
+;
+Identifier	k
+=
+Identifier	i
+/
+IntLiteral	2
+;
+Identifier	j
+=
+IntLiteral	1
+;
+while
+(
+Identifier	j
+<=
+Identifier	k
+)
+{
+Identifier	rem
+=
+Identifier	i
+%
+Identifier	j
+;
+if
+(
+Identifier	rem
+==
+IntLiteral	0
+)
+Identifier	sum
++=
+Identifier	j
+;
+++
+Identifier	j
+;
+}
+if
+(
+Identifier	i
+==
+Identifier	sum
+)
+Identifier	write
+(
+Identifier	i
+)
+;
+++
+Identifier	i
+;
+}
+}

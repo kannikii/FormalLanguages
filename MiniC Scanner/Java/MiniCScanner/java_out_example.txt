@@ -1,0 +1,20 @@
+Begin scanning... programs/example.mc
+
+void
+Identifier	main
+(
+)
+{
+int
+Identifier	i
+;
+Identifier	i
+=
+IntLiteral	100
+;
+Identifier	write
+(
+Identifier	i
+)
+;
+}

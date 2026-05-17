@@ -1,0 +1,99 @@
+ *** start of Mini C Compiler
+   * source file name: perfect.mc
+ === start of Scanner
+Current Token --> number: 30(const)
+Current Token --> number: 33(int)
+Current Token --> number: 4, value: max
+Current Token --> number: 23(=)
+Current Token --> number: 5, value: 500
+Current Token --> number: 20(;)
+Current Token --> number: 35(void)
+Current Token --> number: 4, value: main
+Current Token --> number: 7(()
+Current Token --> number: 8())
+Current Token --> number: 37({)
+Current Token --> number: 33(int)
+Current Token --> number: 4, value: i
+Current Token --> number: 14(,)
+Current Token --> number: 4, value: j
+Current Token --> number: 14(,)
+Current Token --> number: 4, value: k
+Current Token --> number: 20(;)
+Current Token --> number: 33(int)
+Current Token --> number: 4, value: rem
+Current Token --> number: 14(,)
+Current Token --> number: 4, value: sum
+Current Token --> number: 20(;)
+Current Token --> number: 4, value: i
+Current Token --> number: 23(=)
+Current Token --> number: 5, value: 2
+Current Token --> number: 20(;)
+Current Token --> number: 36(while)
+Current Token --> number: 7(()
+Current Token --> number: 4, value: i
+Current Token --> number: 22(<=)
+Current Token --> number: 4, value: max
+Current Token --> number: 8())
+Current Token --> number: 37({)
+Current Token --> number: 4, value: sum
+Current Token --> number: 23(=)
+Current Token --> number: 5, value: 0
+Current Token --> number: 20(;)
+Current Token --> number: 4, value: k
+Current Token --> number: 23(=)
+Current Token --> number: 4, value: i
+Current Token --> number: 18(/)
+Current Token --> number: 5, value: 2
+Current Token --> number: 20(;)
+Current Token --> number: 4, value: j
+Current Token --> number: 23(=)
+Current Token --> number: 5, value: 1
+Current Token --> number: 20(;)
+Current Token --> number: 36(while)
+Current Token --> number: 7(()
+Current Token --> number: 4, value: j
+Current Token --> number: 22(<=)
+Current Token --> number: 4, value: k
+Current Token --> number: 8())
+Current Token --> number: 37({)
+Current Token --> number: 4, value: rem
+Current Token --> number: 23(=)
+Current Token --> number: 4, value: i
+Current Token --> number: 2(%)
+Current Token --> number: 4, value: j
+Current Token --> number: 20(;)
+Current Token --> number: 32(if)
+Current Token --> number: 7(()
+Current Token --> number: 4, value: rem
+Current Token --> number: 24(==)
+Current Token --> number: 5, value: 0
+Current Token --> number: 8())
+Current Token --> number: 4, value: sum
+Current Token --> number: 13(+=)
+Current Token --> number: 4, value: j
+Current Token --> number: 20(;)
+Current Token --> number: 12(++)
+Current Token --> number: 4, value: j
+Current Token --> number: 20(;)
+Current Token --> number: 39(})
+Current Token --> number: 32(if)
+Current Token --> number: 7(()
+Current Token --> number: 4, value: i
+Current Token --> number: 24(==)
+Current Token --> number: 4, value: sum
+Current Token --> number: 8())
+Current Token --> number: 4, value: write
+Current Token --> number: 7(()
+Current Token --> number: 4, value: i
+Current Token --> number: 8())
+Current Token --> number: 20(;)
+Current Token --> number: 12(++)
+Current Token --> number: 4, value: i
+Current Token --> number: 20(;)
+Current Token --> number: 39(})
+Current Token --> number: 39(})
+ === start of Parser
+ > Not yet implemented...
+ === start of ICG
+ > Not yet implemented...
+ *** end   of Mini C Compiler

@@ -1,0 +1,166 @@
+ *** start of Mini C Compiler
+   * source file name: bubble.mc
+ === start of Scanner
+Current Token --> number: 35(void)
+Current Token --> number: 4, value: main
+Current Token --> number: 7(()
+Current Token --> number: 8())
+Current Token --> number: 37({)
+Current Token --> number: 33(int)
+Current Token --> number: 4, value: list
+Current Token --> number: 27([)
+Current Token --> number: 5, value: 100
+Current Token --> number: 28(])
+Current Token --> number: 20(;)
+Current Token --> number: 33(int)
+Current Token --> number: 4, value: element
+Current Token --> number: 20(;)
+Current Token --> number: 33(int)
+Current Token --> number: 4, value: total
+Current Token --> number: 14(,)
+Current Token --> number: 4, value: i
+Current Token --> number: 14(,)
+Current Token --> number: 4, value: top
+Current Token --> number: 20(;)
+Current Token --> number: 33(int)
+Current Token --> number: 4, value: temp
+Current Token --> number: 20(;)
+Current Token --> number: 4, value: i
+Current Token --> number: 23(=)
+Current Token --> number: 5, value: 1
+Current Token --> number: 20(;)
+Current Token --> number: 4, value: read
+Current Token --> number: 7(()
+Current Token --> number: 4, value: element
+Current Token --> number: 8())
+Current Token --> number: 20(;)
+Current Token --> number: 36(while)
+Current Token --> number: 7(()
+Current Token --> number: 4, value: element
+Current Token --> number: 1(!=)
+Current Token --> number: 5, value: 0
+Current Token --> number: 8())
+Current Token --> number: 37({)
+Current Token --> number: 4, value: list
+Current Token --> number: 27([)
+Current Token --> number: 4, value: i
+Current Token --> number: 28(])
+Current Token --> number: 23(=)
+Current Token --> number: 4, value: element
+Current Token --> number: 20(;)
+Current Token --> number: 12(++)
+Current Token --> number: 4, value: i
+Current Token --> number: 20(;)
+Current Token --> number: 4, value: read
+Current Token --> number: 7(()
+Current Token --> number: 4, value: element
+Current Token --> number: 8())
+Current Token --> number: 20(;)
+Current Token --> number: 39(})
+Current Token --> number: 4, value: top
+Current Token --> number: 23(=)
+Current Token --> number: 4, value: total
+Current Token --> number: 23(=)
+Current Token --> number: 4, value: i
+Current Token --> number: 15(-)
+Current Token --> number: 5, value: 1
+Current Token --> number: 20(;)
+Current Token --> number: 36(while)
+Current Token --> number: 7(()
+Current Token --> number: 4, value: top
+Current Token --> number: 25(>)
+Current Token --> number: 5, value: 1
+Current Token --> number: 8())
+Current Token --> number: 37({)
+Current Token --> number: 4, value: i
+Current Token --> number: 23(=)
+Current Token --> number: 5, value: 1
+Current Token --> number: 20(;)
+Current Token --> number: 36(while)
+Current Token --> number: 7(()
+Current Token --> number: 4, value: i
+Current Token --> number: 21(<)
+Current Token --> number: 4, value: top
+Current Token --> number: 8())
+Current Token --> number: 37({)
+Current Token --> number: 32(if)
+Current Token --> number: 7(()
+Current Token --> number: 4, value: list
+Current Token --> number: 27([)
+Current Token --> number: 4, value: i
+Current Token --> number: 28(])
+Current Token --> number: 25(>)
+Current Token --> number: 4, value: list
+Current Token --> number: 27([)
+Current Token --> number: 4, value: i
+Current Token --> number: 11(+)
+Current Token --> number: 5, value: 1
+Current Token --> number: 28(])
+Current Token --> number: 8())
+Current Token --> number: 37({)
+Current Token --> number: 4, value: temp
+Current Token --> number: 23(=)
+Current Token --> number: 4, value: list
+Current Token --> number: 27([)
+Current Token --> number: 4, value: i
+Current Token --> number: 28(])
+Current Token --> number: 20(;)
+Current Token --> number: 4, value: list
+Current Token --> number: 27([)
+Current Token --> number: 4, value: i
+Current Token --> number: 28(])
+Current Token --> number: 23(=)
+Current Token --> number: 4, value: list
+Current Token --> number: 27([)
+Current Token --> number: 4, value: i
+Current Token --> number: 11(+)
+Current Token --> number: 5, value: 1
+Current Token --> number: 28(])
+Current Token --> number: 20(;)
+Current Token --> number: 4, value: list
+Current Token --> number: 27([)
+Current Token --> number: 4, value: i
+Current Token --> number: 11(+)
+Current Token --> number: 5, value: 1
+Current Token --> number: 28(])
+Current Token --> number: 23(=)
+Current Token --> number: 4, value: temp
+Current Token --> number: 20(;)
+Current Token --> number: 39(})
+Current Token --> number: 12(++)
+Current Token --> number: 4, value: i
+Current Token --> number: 20(;)
+Current Token --> number: 39(})
+Current Token --> number: 4, value: top
+Current Token --> number: 16(--)
+Current Token --> number: 20(;)
+Current Token --> number: 39(})
+Current Token --> number: 4, value: i
+Current Token --> number: 23(=)
+Current Token --> number: 5, value: 1
+Current Token --> number: 20(;)
+Current Token --> number: 36(while)
+Current Token --> number: 7(()
+Current Token --> number: 4, value: i
+Current Token --> number: 22(<=)
+Current Token --> number: 4, value: total
+Current Token --> number: 8())
+Current Token --> number: 37({)
+Current Token --> number: 4, value: write
+Current Token --> number: 7(()
+Current Token --> number: 4, value: list
+Current Token --> number: 27([)
+Current Token --> number: 4, value: i
+Current Token --> number: 28(])
+Current Token --> number: 8())
+Current Token --> number: 20(;)
+Current Token --> number: 12(++)
+Current Token --> number: 4, value: i
+Current Token --> number: 20(;)
+Current Token --> number: 39(})
+Current Token --> number: 39(})
+ === start of Parser
+ > Not yet implemented...
+ === start of ICG
+ > Not yet implemented...
+ *** end   of Mini C Compiler

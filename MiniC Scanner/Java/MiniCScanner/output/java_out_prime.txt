@@ -1,0 +1,93 @@
+Begin scanning... programs/prime.mc
+
+const
+int
+Identifier	max
+=
+IntLiteral	100
+;
+void
+Identifier	main
+(
+)
+{
+int
+Identifier	i
+,
+Identifier	j
+,
+Identifier	k
+;
+int
+Identifier	rem
+,
+Identifier	prime
+;
+Identifier	i
+=
+IntLiteral	2
+;
+while
+(
+Identifier	i
+<=
+Identifier	max
+)
+{
+Identifier	prime
+=
+IntLiteral	1
+;
+Identifier	k
+=
+Identifier	i
+/
+IntLiteral	2
+;
+Identifier	j
+=
+IntLiteral	2
+;
+while
+(
+Identifier	j
+<=
+Identifier	k
+)
+{
+Identifier	rem
+=
+Identifier	i
+%
+Identifier	j
+;
+if
+(
+Identifier	rem
+==
+IntLiteral	0
+)
+Identifier	prime
+=
+IntLiteral	0
+;
+++
+Identifier	j
+;
+}
+if
+(
+Identifier	prime
+==
+IntLiteral	1
+)
+Identifier	write
+(
+Identifier	i
+)
+;
+++
+Identifier	i
+;
+}
+}

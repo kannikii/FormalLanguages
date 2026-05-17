@@ -1,0 +1,32 @@
+Begin scanning... programs/mod.mc
+
+void
+Identifier	main
+(
+)
+{
+int
+Identifier	x
+;
+Identifier	x
+=
+IntLiteral	333
+;
+Identifier	x
+++
+;
+Identifier	write
+(
+Identifier	x
+)
+;
+Identifier	x
+%=
+IntLiteral	10
+;
+Identifier	write
+(
+Identifier	x
+)
+;
+}

@@ -1,0 +1,63 @@
+Begin scanning... programs/factorial.mc
+
+void
+Identifier	main
+(
+)
+{
+int
+Identifier	n
+,
+Identifier	f
+;
+Identifier	read
+(
+Identifier	n
+)
+;
+Identifier	write
+(
+Identifier	n
+)
+;
+Identifier	f
+=
+Identifier	factorial
+(
+Identifier	n
+)
+;
+Identifier	write
+(
+Identifier	f
+)
+;
+}
+int
+Identifier	factorial
+(
+int
+Identifier	n
+)
+{
+if
+(
+Identifier	n
+==
+IntLiteral	1
+)
+return
+IntLiteral	1
+;
+else
+return
+Identifier	n
+*
+Identifier	factorial
+(
+Identifier	n
+-
+IntLiteral	1
+)
+;
+}

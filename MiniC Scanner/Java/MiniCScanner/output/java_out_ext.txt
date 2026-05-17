@@ -1,0 +1,30 @@
+Begin scanning... programs/ext.mc
+
+int
+Identifier	x
+;
+void
+Identifier	main
+(
+)
+{
+Identifier	func
+(
+)
+;
+Identifier	write
+(
+Identifier	x
+)
+;
+}
+void
+Identifier	func
+(
+)
+{
+Identifier	x
+=
+IntLiteral	100
+;
+}

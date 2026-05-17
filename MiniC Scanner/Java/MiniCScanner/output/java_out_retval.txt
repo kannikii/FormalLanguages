@@ -1,0 +1,48 @@
+Begin scanning... programs/retval.mc
+
+int
+Identifier	sum
+(
+int
+Identifier	n
+,
+int
+Identifier	m
+)
+{
+int
+Identifier	i
+;
+Identifier	i
+=
+Identifier	n
++
+Identifier	m
+;
+return
+Identifier	i
+;
+}
+void
+Identifier	main
+(
+)
+{
+int
+Identifier	x
+;
+Identifier	x
+=
+Identifier	sum
+(
+IntLiteral	10
+,
+IntLiteral	20
+)
+;
+Identifier	write
+(
+Identifier	x
+)
+;
+}

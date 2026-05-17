@@ -1,0 +1,92 @@
+Begin scanning... programs/test.mc
+
+const
+Identifier	max
+=
+IntLiteral	100
+;
+int
+Identifier	sum
+(
+int
+Identifier	n
+,
+int
+Identifier	m
+)
+{
+int
+Identifier	i
+;
+Identifier	write
+(
+Identifier	n
+)
+;
+Identifier	write
+(
+Identifier	m
+)
+;
+Identifier	i
+=
+Identifier	n
++
+Identifier	m
++
+Identifier	max
+;
+if
+(
+Identifier	i
+==
+IntLiteral	1
+)
+Identifier	i
+=
+IntLiteral	100
+;
+return
+Identifier	i
+;
+}
+void
+Identifier	main
+(
+)
+{
+int
+Identifier	x
+;
+Identifier	write
+(
+Identifier	max
+)
+;
+Identifier	x
+=
+IntLiteral	333
+;
+Identifier	x
+++
+;
+Identifier	write
+(
+Identifier	x
+)
+;
+Identifier	x
+=
+Identifier	sum
+(
+IntLiteral	10
+,
+IntLiteral	20
+)
+;
+Identifier	write
+(
+Identifier	x
+)
+;
+}

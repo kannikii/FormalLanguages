@@ -1,0 +1,36 @@
+ *** start of Mini C Compiler
+   * source file name: ext.mc
+ === start of Scanner
+Current Token --> number: 33(int)
+Current Token --> number: 4, value: x
+Current Token --> number: 20(;)
+Current Token --> number: 35(void)
+Current Token --> number: 4, value: main
+Current Token --> number: 7(()
+Current Token --> number: 8())
+Current Token --> number: 37({)
+Current Token --> number: 4, value: func
+Current Token --> number: 7(()
+Current Token --> number: 8())
+Current Token --> number: 20(;)
+Current Token --> number: 4, value: write
+Current Token --> number: 7(()
+Current Token --> number: 4, value: x
+Current Token --> number: 8())
+Current Token --> number: 20(;)
+Current Token --> number: 39(})
+Current Token --> number: 35(void)
+Current Token --> number: 4, value: func
+Current Token --> number: 7(()
+Current Token --> number: 8())
+Current Token --> number: 37({)
+Current Token --> number: 4, value: x
+Current Token --> number: 23(=)
+Current Token --> number: 5, value: 100
+Current Token --> number: 20(;)
+Current Token --> number: 39(})
+ === start of Parser
+ > Not yet implemented...
+ === start of ICG
+ > Not yet implemented...
+ *** end   of Mini C Compiler

@@ -1,0 +1,11 @@
+Begin scanning... programs/bubble.mc
+
+void
+Identifier	main
+(
+)
+{
+int
+Identifier	list
+  int list[100];
+Error: column 10 Illegal character [

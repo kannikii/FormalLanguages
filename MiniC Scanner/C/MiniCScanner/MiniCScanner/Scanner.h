@@ -1,0 +1,73 @@
+/***************************************************************
+*      scanner routine for Mini C language                    *
+*                                   2003. 3. 10               *
+***************************************************************/
+
+#pragma once
+
+
+#define NO_KEYWORD 16	// 키워드9개 추가(char,double,for,do,goto,switch,case,break,default)
+#define ID_LENGTH 64
+
+struct tokenType {
+	int number;
+	union {
+		char id[ID_LENGTH];
+		int num;
+		char ch;                    // 추가: character literal
+        double dnum;                // 추가: double literal
+        char str[256];              // 추가: string literal / documented comment
+	} value;
+	char fileName[256];   // 추가
+    int lineNo;           // 추가
+    int colNo;            // 추가
+};
+
+
+enum tsymbol {
+	tnull = -1,
+	tnot, tnotequ, tremainder, tremAssign, tident, tnumber,
+	/* 0          1            2         3            4          5     */
+	tand, tlparen, trparen, tmul, tmulAssign, tplus,
+	/* 6          7            8         9           10         11     */
+	tinc, taddAssign, tcomma, tminus, tdec, tsubAssign,
+	/* 12         13          14        15           16         17     */
+	tdiv, tdivAssign, tsemicolon, tless, tlesse, tassign,
+	/* 18         19          20        21           22         23     */
+	tequal, tgreat, tgreate, tlbracket, trbracket, teof,
+	/* 24         25          26        27           28         29     */
+	//   ...........    word symbols ................................. //
+	/* 30         31          32        33           34         35     */
+	tconst, telse, tif, tint, treturn, tvoid,
+	/* 36         37          38        39                             */
+	twhile, tlbrace, tor, trbrace,
+	// 여기서 부터 확장 (40번 부터 추가)
+	tchar,       // 40
+    tdouble,     // 41
+    tfor,        // 42
+    tdo,         // 43
+    tgoto,       // 44
+    tswitch,     // 45
+    tcase,       // 46
+    tbreak,      // 47
+    tdefault,    // 48
+    tcolon,      // 49
+    tcharLit,    // 50
+    tstringLit,  // 51
+    tdoubleLit,  // 52
+    tdocComment  // 53
+};
+
+
+struct tokenType scanner();
+void printToken(struct tokenType token);
+/* 위치 추적용 전역 변수 (Scanner.cpp에서 정의) */
+extern int currentLine;
+extern int currentCol;
+
+/* 소스 파일명 (Main.cpp에서 정의) */
+extern char sourceFileName[];
+
+/* 위치 추적 래퍼 함수 */
+int getNextChar();
+void ungetNextChar(int ch);
